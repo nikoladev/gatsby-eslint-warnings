@@ -1,0 +1,27 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "plugins" : [
+    "react-hooks"
+  ],
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+  "rules": {
+    "array-bracket-spacing": [ "warn", "always" ],
+    "comma-dangle": [ "error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    } ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-pascal-case": [ "error", {
+      "allowAllCaps": true
+    } ]
+  }
+}
